@@ -1,0 +1,25 @@
+{
+  "name": "tema-3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js --mode=development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "json5": "^2.2.3",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4",
+    "yamljs": "^0.3.0"
+  },
+  "dependencies": {
+    "csv-loader": "^3.0.5",
+    "lodash": "^4.17.21"
+  }
+}

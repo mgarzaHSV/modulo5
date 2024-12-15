@@ -1,0 +1,8 @@
+title: JSON 5-Example
+owner:
+  name: Tom Preston-Werner
+  organization: 'GitHub'
+  bio: | -
+    GitHub-Cofounder & CEO
+    Likes tater tots and beer.
+  dob: 1979-05-21T07:32:00:000Z
