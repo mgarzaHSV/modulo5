@@ -1,0 +1,97 @@
+* {
+    border: 0;
+    padding: 0%;
+    margin: 0%;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#Logo {
+    margin-left: 10vh;
+    width: 25vw;
+}
+
+.Banners{
+    width: 100%;
+}
+
+footer {
+    rotate: 180deg;
+}
+
+.title {
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.search > * {
+    padding: 2em;
+}
+
+input {
+    margin-left: 0.5em;
+    padding-left: 0.5em;
+    border-radius: 10%;
+    height: 2.5em;
+    border: 1px solid #315FA9;
+}
+
+main{
+    padding-left: 12vw;
+    padding-right: 12vw;
+}
+
+table {
+    text-align: center;
+    width: 100%;
+}
+
+tr, td, th {
+    border-radius: 1%;
+    height: 3em;
+}
+
+table tbody tr:nth-child(even) td{
+    background-color: rgb(20,156,91,.4);
+}
+
+table tbody tr:nth-child(odd) td{
+    background-color: rgba(249, 218, 79, 0.4);
+}
+
+
+thead {
+    border: 2px solid #315FA9;
+    background-color: #315FA9;
+    color: #fff;
+}
+
+label {
+    background-color: #fff;
+    height: 20px;
+}
+
+tfoot {
+    background-color: black;
+    color: #fff;
+}
+
+table td{
+    font-weight: 500;
+}
+
+table th {
+    font-weight: 800;
+}
+
+h1 {
+    font-weight: 600;
+}
